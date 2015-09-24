@@ -5,26 +5,18 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             "/blog"
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+title:               Fallible Blog
+tagline:             'Adventures with looking under the hood'
+description:         'We discover bugs, disclose them responsibly, help companies fix them and then write about them here. Companies that have a non-disclosure plan with us are not mentioned here.'
+url:                 http://fallible.co/blog
+baseurl:             '/blog'
+paginate:            10
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Fallible inc
+  url:               https://twitter.com/fallible_inc
+  email:             hello@fallible.co
 
 # Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
+version:             1.0.0
