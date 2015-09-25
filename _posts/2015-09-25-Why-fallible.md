@@ -6,7 +6,7 @@ published: true
 
 
 
-Startups are facing a new problem of data leak and loss of money & business. To be fair, the workload at startups is quite high. But at the same time, we cannot expect them to compromise with privacy of their customers. There are startups that deal with stuff that would be embarassing for customers if their order history are made public. Also, these leaks increase spam emails and SMSes.
+Startups are facing a new problem of data leak and loss of money & business. To be fair, the workload at startups is quite high. But at the same time, we cannot expect them to compromise with privacy of their customers. There are startups that deal with stuff that would be embarassing for customers if their order history is made public. Also, these leaks increase spam emails and SMSes.
 
 
 ### Our hypotheses -
