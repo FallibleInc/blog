@@ -18,9 +18,9 @@ Startups are facing a new problem of data leak and loss of money & business. To 
 
 ### The evidences -
 
-- We sat down and discovered multiple vulnerabilites in more than 10 Indian startups, each worth $100m+. Apart from these, we found several smaller startups that had bugs. We found a bug in a payment gateway/wallet service provider which is used by almost all ecommerce companies.
+- We discovered multiple vulnerabilites in more than 10 Indian startups in a week, each worth $100m+. Apart from these, we found several smaller startups that had bugs. We found a bug in a payment gateway/wallet service provider which is used by almost all ecommerce companies.
 
-- Automated vulnerability scanners are decent for vulnerabilities like XSS, SQL injection etc. For dealing with situations where the outcome would be data leaks, problems in logic flow, payments etc. you need a capable security researcher.
+- Automated vulnerability scanners would not have been useful for most of the bugs we found. For dealing with situations where the outcome would be data leaks, problems in logic flow, payments etc. you need a capable security researcher.
 
 - Security researchers are notoriously difficult to hire. Some of the better ones charge $500/hour and would easily rake up a bill of thousands of dollars for couple of days of work.
 
