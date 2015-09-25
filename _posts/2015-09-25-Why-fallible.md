@@ -11,7 +11,7 @@ Startups are facing a new problem of data leak and loss of money & business. To 
 
 ### Our hypotheses -
 
-- Startups have bugs, and could not focus much on security
+- Startups have security bugs
 - Automated security solutions do not discover all bugs. Good for XSS, bit of SQL injection check but not for logic flaws, payment check, etc.
 - Security researchers who are good are expensive for startups to hire. > $500/hour
 
