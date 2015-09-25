@@ -1,7 +1,12 @@
 ---
 layout: post
-title: How fallible helps your startup
+title: How Fallible helps your startup
+published: true
 ---
+
+
+Startups are facing a new problem of data leak and loss of money & business. To be fair, the workload at startups is quite high. But at the same time, we cannot expect them to compromise with privacy of their customers.
+
 
 ### Hypotheses -
 
@@ -25,7 +30,3 @@ We provide you an insurance against security bugs. You pay us a premium every mo
  - We test your setup including web & mobile clients, APIs, ops using exisiting and homegrown automation tools.
  - We deploy an on-premise intrusion alert system to let you know of any abnormal activity with your APIs
  - We run your bug bounty program where reputed researchers can submit bugs, we verify their reproducibility and then alert you. You can use the fallible platform to work with the researcher to get it fixed and then we pay the bounty. You do not have to pay anything except for our monthly subscription.
-
-
-
-
