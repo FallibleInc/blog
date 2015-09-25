@@ -5,25 +5,25 @@ published: true
 ---
 
 
-Startups are facing a new problem of data leak and loss of money & business. To be fair, the workload at startups is quite high. But at the same time, we cannot expect them to compromise with privacy of their customers.
+Startups are facing a new problem of data leak and loss of money & business. To be fair, the workload at startups is quite high. But at the same time, we cannot expect them to compromise with privacy of their customers. There are startups that deal with stuff that would be embarassing for customers if their order history are made public. Also, these leaks increase spam emails and SMSes.
 
 
-### Hypotheses -
+### Our hypotheses -
 
 - Startups have bugs, and could not focus much on security
 - Automated security solutions do not discover all bugs. Good for XSS, bit of SQL injection check but not for logic flaws, payment check, etc.
 - Security researchers who are good are expensive for startups to hire. > $500/hour
 
-### Evidence -
+### The evidences -
 
-- We sat down and discovered multiple vulnerabilites in more than 10 Indian startups who are each worth $100m+. Apart from these, we found several smaller startups that had bugs. We found a bug in a payment gateway/wallet service provider which is used by almost all ecommerce companies.
+- We sat down and discovered multiple vulnerabilites in more than 10 Indian startups, each worth $100m+. Apart from these, we found several smaller startups that had bugs. We found a bug in a payment gateway/wallet service provider which is used by almost all ecommerce companies.
 
 - Automated vulnerability scanners are decent for vulnerabilities like XSS, SQL injection etc. For dealing with situations where the outcome would be data leaks, problems in logic flow, payments etc. you need a capable security researcher.
 
 - Security researchers are notoriously difficult to hire. Some of the better ones charge $500/hour and would easily rake up a bill of thousands of dollars for couple of days of work.
 
 
-## The Solution -
+### The Solution -
 
 We provide you an insurance against security bugs. You pay us a premium every month and we ensure that there are no bugs in your system. If an external security researcher finds a bug, we work with them and award them a bounty that would be decent even by international standards.
 
