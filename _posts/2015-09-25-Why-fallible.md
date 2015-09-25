@@ -30,4 +30,4 @@ We provide you an insurance against security bugs. You pay us a premium every mo
 
  - testing of systems including web & mobile clients, APIs, ops using exisiting and homegrown automation tools.
  - deploying an on-premise intrusion alert system to let you know of any abnormal activity with your APIs
- - A customized bug bounty program where reputed researchers can submit bugs, we verify their reproducibility and then alert you. You can use the fallible platform to work with the researcher to get it fixed and then we pay the bounty. You do not have to pay anything except for our monthly subscription.
+ - a customized bug bounty program where reputed researchers can submit bugs, we verify their reproducibility and then alert you. You can use the fallible platform to work with the researcher to get it fixed and then we pay the bounty. You do not have to pay anything except for our monthly subscription.
