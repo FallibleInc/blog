@@ -22,7 +22,7 @@ Startups are facing a new problem of data leak and loss of money & business. To 
 
 - Automated vulnerability scanners would not have been useful for most of the bugs we found. For dealing with situations where the outcome would be data leaks, problems in logic flow, payments etc. you need a capable security researcher.
 
-- Security researchers are notoriously difficult to hire. Some of the better ones charge $500/hour and would easily rake up a bill of thousands of dollars for couple of days of work.
+- Security researchers are notoriously difficult to hire. A mere certification for pen testing does not give you skills enough to do Some of the better ones charge $500/hour and would easily rake up a bill of thousands of dollars for couple of days of work.
 
 
 ### The Solution -
