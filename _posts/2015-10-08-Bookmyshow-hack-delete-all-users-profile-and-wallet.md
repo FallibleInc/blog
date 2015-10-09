@@ -24,6 +24,6 @@ We had to create a video using mitmproxy for BMS developers to demonstrate that 
 
 ### Bottomline
 
-Ticket collectors do not care about security. Do not save your sensitive data with them.
+Ticket agents do not care about security. Do not save your sensitive data with them.
 
 ![An-Indian-bus-conductor-counts-his-rupees.jpg]({{site.baseurl}}/An-Indian-bus-conductor-counts-his-rupees.jpg)
