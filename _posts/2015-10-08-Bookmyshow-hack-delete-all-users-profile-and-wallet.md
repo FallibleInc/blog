@@ -11,7 +11,7 @@ published: true
 **Bug**: You can overwrite anyones profile on BMS with your own effectively deleting their account and their newly introduced BMS wallet. If the unsuspecting user does not check their profile before putting some money into their wallet, the money goes to the hacker's wallet.
 
 ### Their response
-After multiple mails, and a video that we created using mitmproxy to show them that there indeed was a bug, they just said that they will look into it. There has been no response to our mails confirming that the bug has been fixed. But we did verify it yesterday and they have fixed the bug and silently ignoring us. I guess too much busy doling out the tickets and counting all the money.
+After multiple mails, and a video that we created using mitmproxy to show them that there indeed was a bug, they just said that they will look into it. There has been no response to our mails confirming that the bug has been fixed. But we did verify it yesterday and they have fixed the bug and silently ignoring our emails. A token thank you mail would have been nice.
 
 ![bookmyshow hack.png]({{site.baseurl}}/bookmyshow.png)
 
