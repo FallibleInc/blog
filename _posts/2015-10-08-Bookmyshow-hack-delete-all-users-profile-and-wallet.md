@@ -4,7 +4,9 @@ title: "Bug#1 Delete all BookMyShow accounts and wallets"
 published: true
 ---
 
+*[This bug is a part of the vulnerabilites we discovered in 11 Indian startups worth $3 billion+ in a week.](https://medium.com/@fallible/we-discovered-severe-bugs-in-11-startups-worth-3-billion-in-a-week-cf2a856edb94)*
 
+    
 **Company**: BookMyShow is an Indian ticketing platform for movies, events etc.    
 **Valuation**: 1000 crores+ ($170 million+)    
 **Bug**: You can overwrite anyones profile on BMS with your own effectively deleting their account and their newly introduced BMS wallet. If the unsuspecting user does not check their profile before putting some money into their wallet, the money goes to the hacker's wallet. Also, once an account is overwritten, there is no way to login or activate the account, even by password reset on the user side thus rendering it useless.
