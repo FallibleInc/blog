@@ -5,8 +5,9 @@ published: true
 ---
 
 
-**Company**: BookMyShow is an Indian ticketing platform for movies, events etc.
-**Worth**: 1000 crores+ ($170 million+)
+
+**Company**: BookMyShow is an Indian ticketing platform for movies, events etc.     
+**Worth**: 1000 crores+ ($170 million+)    
 **Bug**: You can overwrite anyones profile on BMS with your own effectively deleting their account and their newly introduced BMS wallet. If the unsuspecting user does not check their profile before putting some money into their wallet, the money goes to the hacker's wallet.
 
 ### Their response
@@ -26,4 +27,3 @@ We had to create a video using mitmproxy for BMS developers to demonstrate that 
 Ticket collectors do not care about security. Do not save your sensitive data with them.
 
 ![An-Indian-bus-conductor-counts-his-rupees.jpg]({{site.baseurl}}/An-Indian-bus-conductor-counts-his-rupees.jpg)
-
