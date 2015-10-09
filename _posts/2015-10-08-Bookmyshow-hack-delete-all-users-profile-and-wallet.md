@@ -18,7 +18,7 @@ After multiple mails, and a video that we created using mitmproxy to show them t
 
 ### Bug video proof
 
-We had to create a video using mitmproxy for BMS developers to demonstrate that there actually was a bug, since their CEO was not paying attenion.
+The video we created to demonstrate that there actually was a bug, since their CEO was not paying attenion.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/3jWQImzQzQ0" frameborder="0" allowfullscreen></iframe>
 
