@@ -12,7 +12,7 @@ published: true
 ### Their response
 After multiple mails, and a video that we created using mitmproxy to show them that there indeed was a bug, they just said that they will look into it. There has been no response to our mails confirming that the bug has been fixed. But we did verify it yesterday and they have fixed the bug and silently ignoring us. I guess too much busy doling out the tickets and counting all the money.
 
-![bookmyshow hack.png]({{site.baseurl}}/_posts/bookmyshow hack.png)
+![bookmyshow hack.png]({{site.baseurl}}/images/bookmyshow hack.png)
 
 
 ### Bug video proof
@@ -25,5 +25,5 @@ We had to create a video using mitmproxy for BMS developers to demonstrate that 
 
 Ticket collectors do not care about security. Do not save your sensitive data with them.
 
-![An-Indian-bus-conductor-counts-his-rupees.jpg]({{site.baseurl}}/_posts/An-Indian-bus-conductor-counts-his-rupees.jpg)
+![An-Indian-bus-conductor-counts-his-rupees.jpg]({{site.baseurl}}/images/An-Indian-bus-conductor-counts-his-rupees.jpg)
 
