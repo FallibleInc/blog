@@ -28,5 +28,3 @@ We had to create a demo video using mitmproxy for BMS developers to demonstrate 
 ### Bottomline
 
 Startups need to be more careful with authorizaton checks and token. When designing an API, every data except the public ones should need the authorization token and be matched against the current user.
-
-![An-Indian-bus-conductor-counts-his-rupees.jpg]({{site.baseurl}}/An-Indian-bus-conductor-counts-his-rupees.jpg)
