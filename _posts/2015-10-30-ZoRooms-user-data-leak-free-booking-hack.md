@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Bug #13 ZoRooms leaks all users personal and bookings data
+title: "Bug#13: ZoRooms leaks all users personal and bookings data"
 published: true
 ---
+
 
 **Company**: ZoRooms, started in 2015, aggregates budgets hotels. They have raised more than 300 crores INR ($45m+).      
 **Valuation**: $100m+ (approximated) 
