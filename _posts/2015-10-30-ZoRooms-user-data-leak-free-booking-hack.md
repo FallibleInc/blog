@@ -10,7 +10,7 @@ published: true
 
 Last week, we discovered even more bugs in potential Indian unicorns, taking our count to 19 from the [11 we discovered earlier](https://medium.com/@fallible/we-discovered-severe-bugs-in-11-startups-worth-3-billion-in-a-week-cf2a856edb94). 
 
-We mailed to their customer support and received no reply. After waiting for 4 days, we mailed to the 7 co-founders of ZoRooms and their head of products but the mails went unreplied.
+We mailed about the to ZoRooms customer support and received no reply. After waiting for 4 days, we mailed to the 7 co-founders of ZoRooms and their head of products but the mails went unreplied.
 ![zorooms.png]({{site.baseurl}}/zorooms.png)
 
          
@@ -40,7 +40,7 @@ The first bug is more dangerous and can be exploited in several different ways b
 The disturbing fact we found is that not a single co-founder among the more than a half-dozen seemed to care to respond to our email. We hope this blog post reaches them and the bug is fixed.
 
 
-####Lessons:      
+###Lessons:      
 - Do not ever project more data from your APIs than you need to show to user in a view. 
 - Use authorization checks against current logged in user and make all API endpoints private by default.
 - Kindly reply to people who are finding your bugs and helping you get them fixed for free. It is a decent thing to do.
