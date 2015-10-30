@@ -17,9 +17,9 @@ We mailed about the to ZoRooms customer support and received no reply. After wai
 We then added their CEO and co-founders in a Whatsapp group and informed them about the mail.We received a curt 'Thanks' but still no reply on the mail.
 
      
-![zorooms-wa1.png]({{site.baseurl}}/zorooms-wa1.png)
+![zorooms-wa1.PNG]({{site.baseurl}}/zorooms-wa1.PNG)
 
-![zorooms-wa2.png]({{site.baseurl}}/zorooms-wa2.png)
+![zorooms-wa2.PNG]({{site.baseurl}}/zorooms-wa2.PNG)
 
      
           
