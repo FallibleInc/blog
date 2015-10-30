@@ -14,7 +14,7 @@ We mailed about the vulnerabilites to Zo Rooms customer support and received no 
 ![zorooms.png]({{site.baseurl}}/zorooms.png)
 
          
-We then added their CEO and co-founders in a Whatsapp group and informed them about the mail.We received a curt 'Thanks' but still no reply on the mail. We remembered this was the same CEO who devoted a [lot of time write 2000 words answers and advices on Quora with great illustrations](https://www.quora.com/Business-Ideas/What-are-the-best-ways-to-think-of-ideas-for-a-startup/answer/Dharamveer-Singh-Chouhan?share=1). We were disappointed with the response.
+We then added their CEO and co-founders in a Whatsapp group and informed them about the mail.We received a curt 'Thanks' but still no reply on the mail. We remembered this was the same CEO who devoted a [lot of time to write awesome 2000 words answers and advices on Quora with great illustrations](https://www.quora.com/Business-Ideas/What-are-the-best-ways-to-think-of-ideas-for-a-startup/answer/Dharamveer-Singh-Chouhan?share=1). We were disappointed with the response.
 
      
 ![zorooms-wa1.PNG]({{site.baseurl}}/zorooms-wa1.PNG)
