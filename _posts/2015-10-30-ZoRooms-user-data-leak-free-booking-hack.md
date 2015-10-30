@@ -10,7 +10,7 @@ published: true
 
 Last week, we discovered even more bugs in potential Indian unicorns, taking our count to 19 from the [11 we discovered earlier](https://medium.com/@fallible/we-discovered-severe-bugs-in-11-startups-worth-3-billion-in-a-week-cf2a856edb94). 
 
-We mailed about the to Zo Rooms customer support and received no reply. After waiting for 4 days, we mailed to the 7 co-founders of Zo Rooms and their head of products but the mails went unreplied.
+We mailed about the vulnerabilites to Zo Rooms customer support and received no reply. After waiting for 4 days, we mailed to the 7 co-founders of Zo Rooms and their head of products but the mails went unreplied.
 ![zorooms.png]({{site.baseurl}}/zorooms.png)
 
          
