@@ -16,11 +16,6 @@ published: true
 ### Their response
 BigBasket was responsive in their communication and their CTO along with VP Tech constantly keeping us updated and were quick to fix the bug. They even offered a token bounty of 5000 rupees in BigBasket credits, which we have not accepted.
 
-![bbhack.png]({{site.baseurl}}/bbhack.png)
-     
-      
-![bbhack2.png]({{site.baseurl}}/bbhack2.png)
-
 
 ### Bottomline
 Please be extra careful while designing your database schemas and APIs, any obvious unique contraints should not be missed.
