@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Bug#2 Order anything for free on BigBasket"
-published: true
+published: false
 ---
+
 
 *[This bug is a part of the vulnerabilites we discovered in 11 Indian startups worth $3 billion+ in a week.](https://medium.com/@fallible/we-discovered-severe-bugs-in-11-startups-worth-3-billion-in-a-week-cf2a856edb94)*
 
@@ -19,5 +20,3 @@ BigBasket was responsive in their communication and their CTO along with VP Tech
 
 ### Bottomline
 Please be extra careful while designing your database schemas and APIs, any obvious unique contraints should not be missed.
-
-
