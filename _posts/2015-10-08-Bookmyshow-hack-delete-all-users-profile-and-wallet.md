@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Bug#1 Delete all BookMyShow accounts and wallets"
-published: true
+published: false
 ---
+
 
 *[This bug is a part of the vulnerabilites we discovered in 11 Indian startups worth $3 billion+ in a week.](https://medium.com/@fallible/we-discovered-severe-bugs-in-11-startups-worth-3-billion-in-a-week-cf2a856edb94)*
 
