@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Bug#13: Zo Rooms leaks all users personal and bookings data"
-published: true
+published: false
 ---
+
 
 
 **Company**: Zo Rooms, started in 2015, aggregates budgets hotels. They have raised more than 300 crores INR ($45m+).      
