@@ -28,7 +28,7 @@ The following types of bugs were used while ranking startups and their systems f
 16. Rate limiting/captcha after retries in reset password
 17. Multiple registration using same unique identifier e.g. mobile
 
-{% highlight python linenos %}
+{% highlight python %}
 >>> phone_no = "8121798285"
 >>> phone_no_evil = "8121798285\n\n"
 >>> int(phone_no) == int(phone_no_evil)
