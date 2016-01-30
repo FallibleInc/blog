@@ -69,7 +69,7 @@ False
 
 And, this is what happens when you try it in Swift
 
-![Screen Shot 2016-01-31 at 2.30.24 AM.png]({{site.baseurl}}/_posts/Screen Shot 2016-01-31 at 2.30.24 AM.png)
+![Screen Shot 2016-01-31 at 2.30.24 AM.png]({{site.baseurl}}/swift.png)
 
 
 ### Configuration
