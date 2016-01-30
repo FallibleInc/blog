@@ -7,6 +7,9 @@ enforce_ssl: fallible.co   # without any protocol
 permalink:           pretty
 relative_permalinks: true
 
+markdown:    kramdown
+highlighter: pygments
+
 # Setup
 title:               Fallible Blog
 tagline:             'Adventures with looking under the hood'
@@ -17,7 +20,7 @@ paginate:            10
 
 # About/contact
 author:
-  name:              Fallible inc
+  name:              Fallible
   url:               https://twitter.com/fallible_inc
   email:             hello@fallible.co
 
