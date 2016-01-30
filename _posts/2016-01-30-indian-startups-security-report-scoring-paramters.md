@@ -1,5 +1,7 @@
 ---
-published: false
+layout: post
+title: Parameters used in scoring for public security dashboard
+published: true
 ---
 
 
