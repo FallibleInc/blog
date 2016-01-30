@@ -76,32 +76,33 @@ And, this is what happens when you try it in Swift
 
 ### Configuration
 
-18. Secure HTTP Headers (X-XSS-Protection, X-FRAME-Options, HSTS, CSP)
+* Secure HTTP Headers (X-XSS-Protection, X-FRAME-Options, HSTS, CSP)
 The web was created to serve static pages of content. People did not think about security for all the additional features we added to it. With these features, came security issue and there have been improvements and fixes. Just use them. It is still surprising that your servers do not have these HTTP headers.
 
-19. Secure, httponly cookies
-20. SPF headers for main and marketing email domains
-21. Dangling subdomain based takeover
-22. SSL configuration based issues
-23. Sensitive cookies without secure flag set
-24. Directory traversal
-25. AWS S3 buckets exposed
-26. Credit card details or sensitive information over HTTP
+* Secure, httponly cookies
+* SPF headers for main and marketing email domains
+* Dangling subdomain based takeover
+* SSL configuration based issues
+* Sensitive cookies without secure flag set
+* Directory traversal
+* AWS S3 buckets exposed
+* Credit card details or sensitive information over HTTP
 
 It's 2016 and yet a billion dollar startup takes credit card information for one of their products over HTTP! Dont do it. MITM attack are really easy, just go to your nearby coffee shop or Airport.
 
-27. Exposed backup files over public network
+* Exposed backup files over public network
 
 We found a machine where someone had redirect stdout of history command to a file and it was exposed online. The file has a command where a login to a remote mysql server was being done using password. In another case, we found sql dumps of databases neatly stored under a directory called backups arranged by months and date.
-28. File disclousure
-29. Subresource Integrity
+* File disclousure
+* Subresource Integrity
+* Public Key Pinning
 
 ### Payments
 
-29. Secret token leak in apps/API
-30. Poor SDK implementation
+* Secret token leak in apps/API
+* Poor SDK implementation
 
-31. Poor database design
+* Poor database design
 
 This was an actual bug we discovered in a billion dollar startup. You could pay for an order of amount X and then use the same payment id to associate it with other future orders, the only condition being that the new order amount has to be the same as specified in the payment id. This bug could allow you to place orders for the same amount multiple number of times and pay just once. Notice that there is no unique constraint on payment_id in Transaction model.
 
@@ -122,11 +123,11 @@ class PaymentGateway(db.Model):
 
 {% endhighlight %}
 
-32. Weak salt /secret strength of provider
-33. Server side data integrity verification for payment requests
-34. Race condition in coupon redemption
-35. Weak emunerable coupons
-36. Poorly designed referral system
+* Weak salt /secret strength of provider
+* Server side data integrity verification for payment requests
+* Race condition in coupon redemption
+* Weak emunerable coupons
+* Poorly designed referral system
 
 ### Authoriation & Personal data 
 37. Account details leak, missing authorization token
