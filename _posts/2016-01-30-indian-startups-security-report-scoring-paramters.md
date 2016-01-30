@@ -5,6 +5,7 @@ published: true
 ---
 
 
+
 The following types of bugs were used while ranking startups and their systems for security issues. Almost all of the bugs relate to improper user input validation, lack of proper logic while implementation or not adhering to the principle of least privilege. 
 
 	
@@ -26,6 +27,13 @@ The following types of bugs were used while ranking startups and their systems f
 15. Exposed Social login tokens in apps
 16. Rate limiting/captcha after retries in reset password
 17. Multiple registration using same unique identifier e.g. mobile
+
+{% highlight python linenos %}
+>>> phone_no = "8121798285"
+>>> phone_no_evil = "8121798285\n\n"
+>>> int(phone_no) == int(phone_no_evil)
+True
+{% endhighlight %}
 
 ### Configuration
 
@@ -68,4 +76,3 @@ The following types of bugs were used while ranking startups and their systems f
 47. CSV Excel macro injection
 48. Server side request forgery  https://goo.gl/aaxYr8
 49. XXE /JSON based injection
-
