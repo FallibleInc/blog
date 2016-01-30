@@ -43,7 +43,7 @@ The following types of bugs were used while ranking startups and their systems f
 
 ### Payments
 
-29. Salt/secret Leakage in apps/API
+29. Secret token leak in apps/API
 30. Poor SDK implementation
 31. Weak salt /secret strength of provider
 32. Server side data integrity verification for payment requests
