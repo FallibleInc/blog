@@ -6,6 +6,7 @@ published: true
 
 
 
+
 The following types of bugs were used while ranking startups and their systems for security issues. Almost all of the bugs relate to improper user input validation, lack of proper logic while implementation or not adhering to the principle of least privilege. 
 
 	
@@ -99,8 +100,11 @@ class Order(db.Model):
 
 class Transaction(db.Model):
 	id = db.Column(db.Integer, primary_key=True)
-	order_id = db.Column(db.Integer, db.ForeignKey('order.id'), unique=True)
-	payment_id = db.Column(db.Integer, db.ForeignKey('paymentgateway.id'))
+	order_id = db.Column(db.Integer,
+						 db.ForeignKey('order.id'),
+						 unique=True)
+	payment_id = db.Column(db.Integer,
+						   db.ForeignKey('paymentgateway.id'))
 
 class PaymentGateway(db.Model):
 	id = db.Column(db.Integer, primary_key=True)
