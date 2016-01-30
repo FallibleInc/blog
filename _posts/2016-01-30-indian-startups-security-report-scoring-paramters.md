@@ -87,8 +87,10 @@ The web was created to serve static pages of content. People did not think about
 24. Directory traversal
 25. AWS S3 buckets exposed
 26. Credit card details or sensitive information over HTTP
+
 It's 2016 and yet a billion dollar startup takes credit card information for one of their products over HTTP! Dont do it. MITM attack are really easy, just go to your nearby coffee shop or Airport.
 27. Exposed backup files over public network
+
 We found a machine where someone had redirect stdout of history command to a file and it was exposed online. The file has a command where a login to a remote mysql server was being done using password. In another case, we found sql dumps of databases neatly stored under a directory called backups arranged by months and date.
 28. File disclousure
 29. Subresource Integrity
