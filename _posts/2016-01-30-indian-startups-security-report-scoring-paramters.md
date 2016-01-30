@@ -59,8 +59,8 @@ What is wrong here? Maybe the code below will clear things up. This is what happ
 
 {% highlight python %}
 
->>> phone_no = "8121798285"
->>> phone_no_evil = "8121798285\n\n"
+>>> phone_no = "7007001234"
+>>> phone_no_evil = "7007001234\n\n"
 >>> int(phone_no) == int(phone_no_evil)
 True
 >>> phone_no == phone_no_evil
