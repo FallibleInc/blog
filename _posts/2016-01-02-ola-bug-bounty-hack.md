@@ -1,5 +1,7 @@
 ---
-published: false
+layout: post
+title: Ola gave us ₹65000 ($1000) in bounties 
+published: true
 ---
 
 
