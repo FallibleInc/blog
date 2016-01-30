@@ -28,12 +28,49 @@ The following types of bugs were used while ranking startups and their systems f
 16. Rate limiting/captcha after retries in reset password
 17. Multiple registration using same unique identifier e.g. mobile
 
+Let's look at this innocent looking User model that uses mobile number of users as it's primary key stored in form of string.
+
 {% highlight python %}
+
+class User(db.Model):
+	mobile = db.Column(db.String, primary_key=True)
+	email = db.Column(db.String(120), unique=True)
+
+{% endhighlight %}
+
+Now let's assume it has to send the mobile number as a big integer to a service for sending OTPs.
+{% highlight swift %}
+
+func sendMessage(mobileNumber: Int64, message: String) -> Bool {
+    return true
+}
+
+func sendOTP(mobileNumber: Int64) -> Bool {
+    let OTP = 1000 + arc4random_uniform(8999)
+    let text = "Your OTP is \(OTP) and is valid for 15 minutes"
+    return sendMessage(mobileNumber, message: text)
+}
+
+{% endhighlight %}
+
+What is wrong here? Maybe the code below will clear things up. This is what happens in Python when you try converting a string to integer.
+
+{% highlight python %}
+
 >>> phone_no = "8121798285"
 >>> phone_no_evil = "8121798285\n\n"
 >>> int(phone_no) == int(phone_no_evil)
 True
-{% endhighlight %}
+>>> phone_no == phone_no_evil
+False
+
+{% highlight python %}
+
+
+And, this is what happens when you try it in Swift
+
+![Screen Shot 2016-01-31 at 2.30.24 AM.png]({{site.baseurl}}/_posts/Screen Shot 2016-01-31 at 2.30.24 AM.png)
+
 
 ### Configuration
 
@@ -53,6 +90,23 @@ True
 
 29. Secret token leak in apps/API
 30. Poor SDK implementation
+31. Poor database design
+
+{% highlight python %}
+
+class Order(db.Model):
+	id = db.Column(db.Integer, primary_key=True)
+
+class Transaction(db.Model):
+	id = db.Column(db.Integer, primary_key=True)
+	order_id = db.Column(db.Integer, db.ForeignKey('order.id'), unique=True)
+	payment_id = db.Column(db.Integer, db.ForeignKey('paymentgateway.id'))
+
+class PaymentGateway(db.Model):
+	id = db.Column(db.Integer, primary_key=True)
+
+{% endhighlight %}
+
 31. Weak salt /secret strength of provider
 32. Server side data integrity verification for payment requests
 33. Race condition in coupon redemption
