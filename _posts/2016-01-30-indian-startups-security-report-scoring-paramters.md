@@ -112,26 +112,26 @@ class PaymentGateway(db.Model):
 
 {% endhighlight %}
 
-31. Weak salt /secret strength of provider
-32. Server side data integrity verification for payment requests
-33. Race condition in coupon redemption
-34. Weak emunerable coupons
-35. Poorly designed referral system
+32. Weak salt /secret strength of provider
+33. Server side data integrity verification for payment requests
+34. Race condition in coupon redemption
+35. Weak emunerable coupons
+36. Poorly designed referral system
 
 ### Authoriation & Personal data 
-36. Account details leak, missing authorization token
-37. Project more data than required in API responses
-38. Order History/information leak other than personal details
-39. Working Authorization token (not only mere presence)
+37. Account details leak, missing authorization token
+38. Project more data than required in API responses
+39. Order History/information leak other than personal details
+40. Working Authorization token (not only mere presence)
 
 ### Other attacks
-40. CSRF/secure token expose over HTTP (possible MITM attack)
-41. CRLF Injection attack
-42. SQL Injection
-43. XSS
-44. SQL injection using cookies
-45. CSRF token checks
-46. Open Redirects
-47. CSV Excel macro injection
-48. Server side request forgery  https://goo.gl/aaxYr8
-49. XXE /JSON based injection
+41. CSRF/secure token expose over HTTP (possible MITM attack)
+42. CRLF Injection attack
+43. SQL Injection
+44. XSS
+45. SQL injection using cookies
+46. CSRF token checks
+47. Open Redirects
+48. CSV Excel macro injection
+49. Server side request forgery  https://goo.gl/aaxYr8
+50. XXE /JSON based injection
