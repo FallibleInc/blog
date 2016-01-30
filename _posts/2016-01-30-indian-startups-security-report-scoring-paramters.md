@@ -6,8 +6,7 @@ published: true
 
 
 
-
-The following types of bugs were used while ranking startups and their systems for security issues. Almost all of the bugs relate to improper user input validation, lack of proper logic while implementation or not adhering to the principle of least privilege. 
+The following types of bugs were used while ranking startups and their systems for security issues. Almost all of the bugs relate to improper user input validation, lack of proper logic while implementation or not adhering to the principle of least privilege. The weightage were given according to potential impact of the bug, ease of discovery, ease of exploit and requirement of other preconditions if any for exploit. 
 
 	
 ### Authentication
@@ -91,12 +90,16 @@ And, this is what happens when you try it in Swift
 
 29. Secret token leak in apps/API
 30. Poor SDK implementation
+
 31. Poor database design
+
+This was an actual bug we discovered in a billion dollar startup. You could pay for an order of amount X and then use the same payment id to associate it with other future orders, the only condition being that the new order amount has to be the same as specified in the payment id. This bug could allow you to place orders for the same amount multiple number of times and pay just once. Notice that there is no unique constraint on payment_id in Transaction model.
 
 {% highlight python %}
 
 class Order(db.Model):
 	id = db.Column(db.Integer, primary_key=True)
+	amount = db.Column(db.Float)
 
 class Transaction(db.Model):
 	id = db.Column(db.Integer, primary_key=True)
@@ -105,6 +108,7 @@ class Transaction(db.Model):
 
 class PaymentGateway(db.Model):
 	id = db.Column(db.Integer, primary_key=True)
+	amount = db.Column(db.Float)
 
 {% endhighlight %}
 
