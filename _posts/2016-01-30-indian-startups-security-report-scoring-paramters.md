@@ -6,6 +6,7 @@ published: true
 
 
 
+
 The following types of bugs were used while ranking startups and their systems for security issues. Almost all of the bugs relate to improper user input validation, lack of proper logic while implementation or not adhering to the principle of least privilege. The weightage were given according to potential impact of the bug, ease of discovery, ease of exploit and requirement of other preconditions if any for exploit. 
 
 	
@@ -85,6 +86,7 @@ And, this is what happens when you try it in Swift
 26. Credit card details or sensitive information over HTTP
 27. Exposed backup files over public network
 28. File disclousure
+29. Subresource Integrity
 
 ### Payments
 
