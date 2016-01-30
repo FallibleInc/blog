@@ -64,7 +64,7 @@ True
 >>> phone_no == phone_no_evil
 False
 
-{% highlight python %}
+{% endhighlight %}
 
 
 And, this is what happens when you try it in Swift
