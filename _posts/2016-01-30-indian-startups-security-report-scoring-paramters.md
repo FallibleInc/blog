@@ -100,11 +100,8 @@ class Order(db.Model):
 
 class Transaction(db.Model):
 	id = db.Column(db.Integer, primary_key=True)
-	order_id = db.Column(db.Integer,
-						 db.ForeignKey('order.id'),
-						 unique=True)
-	payment_id = db.Column(db.Integer,
-						   db.ForeignKey('paymentgateway.id'))
+	order_id = db.Column(db.Integer, db.ForeignKey('order.id'), unique=True)
+	payment_id = db.Column(db.Integer, db.ForeignKey('paymentgateway.id'))
 
 class PaymentGateway(db.Model):
 	id = db.Column(db.Integer, primary_key=True)
