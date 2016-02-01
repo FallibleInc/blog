@@ -11,7 +11,8 @@ published: true
 
 
 
-The following types of bugs were used while ranking startups and their systems for security issues. Almost all of the bugs relate to improper user input validation, lack of proper logic while implementation or not adhering to the principle of least privilege. The weightage were given according to potential impact of the bug, ease of discovery, ease of exploit and requirement of other preconditions if any for exploit. We intend to improve upon this list of parameters and scoring over time.
+
+The following types of bugs were used while [ranking startups and their systems for security issues](https://fallible.co/PSI/). Almost all of the bugs relate to improper user input validation, lack of proper logic while implementation or not adhering to the principle of least privilege. The weightage were given according to potential impact of the bug, ease of discovery, ease of exploit and requirement of other preconditions if any for exploit. We intend to improve upon this list of parameters and scoring over time.
 
 	
 ### Authentication
