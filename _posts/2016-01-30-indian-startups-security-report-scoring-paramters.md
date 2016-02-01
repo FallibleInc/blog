@@ -9,6 +9,7 @@ published: true
 
 
 
+
 The following types of bugs were used while ranking startups and their systems for security issues. Almost all of the bugs relate to improper user input validation, lack of proper logic while implementation or not adhering to the principle of least privilege. The weightage were given according to potential impact of the bug, ease of discovery, ease of exploit and requirement of other preconditions if any for exploit. 
 
 	
@@ -26,7 +27,7 @@ The following types of bugs were used while ranking startups and their systems f
 11. OAuth fixation attack, missing state or unqiue token
 12. Missing CSRF token auth
 13. Improper UUIDs used as tokens (http://www.ietf.org/rfc/rfc4122.txt)
-14. Invalidate OAuth token during revocation/denial HO 57603
+14. Invalidate OAuth token during revocation/denial
 15. Exposed Social login tokens in apps
 16. Rate limiting/captcha after retries in reset password
 
