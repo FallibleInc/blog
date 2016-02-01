@@ -1,11 +1,8 @@
 ---
+layout: post
+title: Why be secure?
 published: true
 ---
-
-
-
-
-# Why be secure?
  
 India is a country of 1.27 billion people with internet penetration somewhere around 27% at present with a healthy double digit growth rate.
 
