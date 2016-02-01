@@ -13,6 +13,7 @@ Yet, amidst growing exponentially and building awesome stuff, companies are ofte
 Keeping this in mind, we are launching [**Product Security Index**](https://fallible.co/PSI/) for the common internet products and services that people use on a daily basis. We are using a wide range of [parameters](https://fallible.co/blog/2016/01/30/indian-startups-security-report-scoring-paramters/) to calculate these strength indices and are actively working to improve on it to mirror real world impact.
 
 _There are two major takeaways from this tool:_
+
 - For companies, this will serve as a security benchmark index to continuously improve to keep up with their peers globally and, in the process doing justice to their customers to provide with the best experience they can.
 - For consumers, this will raise awareness regarding their privacy, data protection and financial information security provided by the companies they have trusted.
 
