@@ -151,5 +151,5 @@ class PaymentGateway(db.Model):
 46. CSRF token checks
 47. Open Redirects
 48. CSV Excel macro injection
-49. Server side request forgery (a good writeup https://goo.gl/aaxYr8)
+49. Server side request forgery (a good writeup [here](https://goo.gl/aaxYr8))
 50. XXE /JSON based injection
