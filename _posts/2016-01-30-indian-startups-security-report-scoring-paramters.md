@@ -19,9 +19,9 @@ The following types of bugs were used while [ranking startups and their systems 
 ### Authentication
 1. Oauth redirection issue
 2. OTP refresh/attempts/implementation issue
-3. Destroy all active sessions on reset password/offer to 
+3. Destroy all active sessions on reset password (or offer to destroy)
 4. Input validation registration data e.g.  javascript:// or data:// 
-5. Uniqueness db constraints (account takeover/deletion by replacing email)
+5. Uniqueness constraints in database (account takeover/deletion by replacing email)
 6. Expire session token after logout
 7. Expire password reset links
 8. Session/state fixation
