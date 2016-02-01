@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why be secure?
+title: Launching Product Security Index
 published: true
 ---
  
@@ -10,7 +10,7 @@ Demand has always been increasing for better, cheaper and faster services but, i
 
 Yet, amidst growing exponentially and building awesome stuff, companies are often nuisanced by the threats that come along with Internet, a massive network of diverse people. In past, Customers have dealt with harassment, exposure of private data and even financial loss in the wake of security attacks. Even with such a huge expanding user base, companies that undergo such attacks are not immune to the effects of these security breaches and had led upto loss of public trust and eventual shutdown.
 
-Keeping this in mind, we are launching [Public Security Dashboard](http://fallible.co/dashboard) for the common internet products and services that people use on a daily basis. We are using a wide range of [parameters](https://fallible.co/blog/2016/01/30/indian-startups-security-report-scoring-paramters/) to calculate these strength indices and are actively working to improve on it to mirror real world impact.
+Keeping this in mind, we are launching [**Product Security Index**](https://fallible.co/PSI/) for the common internet products and services that people use on a daily basis. We are using a wide range of [parameters](https://fallible.co/blog/2016/01/30/indian-startups-security-report-scoring-paramters/) to calculate these strength indices and are actively working to improve on it to mirror real world impact.
 
 _There are two major takeaways from this tool:_
 - For companies, this will serve as a security benchmark index to continuously improve to keep up with their peers globally and, in the process doing justice to their customers to provide with the best experience they can.
