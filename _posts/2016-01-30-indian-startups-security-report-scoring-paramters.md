@@ -8,6 +8,7 @@ published: true
 
 
 
+
 The following types of bugs were used while ranking startups and their systems for security issues. Almost all of the bugs relate to improper user input validation, lack of proper logic while implementation or not adhering to the principle of least privilege. The weightage were given according to potential impact of the bug, ease of discovery, ease of exploit and requirement of other preconditions if any for exploit. 
 
 	
@@ -28,6 +29,8 @@ The following types of bugs were used while ranking startups and their systems f
 14. Invalidate OAuth token during revocation/denial HO 57603
 15. Exposed Social login tokens in apps
 16. Rate limiting/captcha after retries in reset password
+
+
 #### Multiple registration using same unique identifier e.g. mobile
 
 Let's look at this innocent looking User model that uses mobile number of users as it's primary key stored in form of string.
@@ -40,7 +43,7 @@ class User(db.Model):
 
 {% endhighlight %}
 
-Now let's assume it has to send the mobile number as a big integer to a service for sending OTPs.
+Now let's assume it has to send the mobile number as a big integer to a service that expects mobile numbers to be big integers for sending OTPs.
 {% highlight swift %}
 
 func sendMessage(mobileNumber: Int64, message: String) -> Bool {
@@ -86,9 +89,12 @@ The web was created to serve static pages of content. People did not think about
 * Sensitive cookies without secure flag set
 * Directory traversal
 * AWS S3 buckets exposed
+
+
 #### Credit card details or sensitive information over HTTP
 
 It's 2016 and yet a billion dollar startup takes credit card information for one of their products over HTTP! Dont do it. MITM attack are really easy, just go to your nearby coffee shop or Airport.
+
 
 #### Exposed backup files over public network
 
