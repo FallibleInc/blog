@@ -5,7 +5,6 @@ enforce_ssl: fallible.co   # without any protocol
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
 
 markdown:    kramdown
 highlighter: pygments
@@ -23,4 +22,3 @@ author:
   name:              Fallible
   url:               https://twitter.com/fallible_inc
   email:             hello@fallible.co
-
