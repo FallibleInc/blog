@@ -4,6 +4,7 @@ title: Launching Product Security Index
 published: true
 ---
 
+
  
 India is a country of 1.27 billion people with internet penetration somewhere around 27% at present with a healthy double digit growth rate.
 
@@ -23,4 +24,4 @@ That's where **Fallible** comes into picture.
 
 [Fallible](https://fallible.co/) is SaaS security company built for making the internet products and services safer, so that companies can focus on building amazing experiences for their customers and not get distracted from achieving the solution to core problem they are tackling.
 
-- [Sitesh](https://in.linkedin.com/in/siteshshrivastava), [Manish](https://www.linkedin.com/in/manish-kumar-7741a338) & [Abhishek](https://www.linkedin.com/in/abhishekanandbit)
+-- [Sitesh](https://in.linkedin.com/in/siteshshrivastava), [Manish](https://www.linkedin.com/in/manish-kumar-7741a338) & [Abhishek](https://www.linkedin.com/in/abhishekanandbit)
