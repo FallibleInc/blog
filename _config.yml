@@ -15,7 +15,8 @@ tagline:             'Adventures with looking under the hood'
 description:         'We discover bugs, disclose them responsibly, help companies fix them and then write about them here. Companies that have a non-disclosure plan with us are not mentioned here.'
 url:                 http://fallible.co/blog
 baseurl:             '/blog'
-paginate:            10
+paginate:            1
+gems:                [jekyll-paginate]
 
 # About/contact
 author:
