@@ -1,5 +1,7 @@
 ---
-published: false
+layout: post
+title: Revision in Fallible pricing 
+published: true
 ---
 
 
