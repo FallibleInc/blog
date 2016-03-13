@@ -65,14 +65,14 @@ User 1                           User 2
 
 ### Problem 1: 
 
-##### We need to match the requests for both users. 
+#### We need to match the requests for both users. 
 The serial order of Requests done for <user 1> is not a one to one match for the Requests for <user 2> since the recording of activities might have some noise in the API calls captured for example, Apple (in case of iOS) might be sending some stats to its server only adding to the noise for us to suffer — bad apple (of course not just Apple). So first, we need to match them 1 to 1.
 
 We have done this matching by using the url and keys of query params and keys of params present in the body (json, form or multipart form) between the API calls listed for those 2 users. So, that works out to be *O(n^2)* . Yes, it can be improved and done in *O(n)* too, it is left as an exercise for the reader.
 
 ### Problem 2: 
 
-##### We need to replay request of <user 1> with parameters from request of <user 2>. 
+#### We need to replay request of <user 1> with parameters from request of <user 2>. 
 Now that we have one <Request, Response> from <user 1> and one <Request, Response> from <user 2>, we need to take some parameter values from <user 2> and replace it in the request of <user 1>.
 
 What to take and what not to take?
@@ -97,7 +97,7 @@ After replacing request 1 parameters, we need to replay it and see the response 
 
 ### Problem 3: 
 
-##### Verifying that the response is same as it was for <user 2>.
+#### Verifying that the response is same as it was for <user 2>.
 This is the phase we are in. Exact word to word match might not be ideal since the session token if any present in the response of this new request will be of <user 1>, what if response contains that token.
 
 Other options could be :
