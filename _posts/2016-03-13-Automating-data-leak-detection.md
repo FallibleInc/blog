@@ -42,24 +42,24 @@ For recording the activities one can use a proxy suite like burp or mitmproxy .
 A typical users session will comprise of multiple requests and multiple responses:
 
 {% highlight html %}
-User 1                               User 2
+User 1                           User 2
 
                 
-1. <Request A> <Response A>          1. <Request a> <Response a>
+1. <Request A> <Response A>      1. <Request a> <Response a>
 
-2. <Request B> <Response B>          2. <Request A> <Response A>
+2. <Request B> <Response B>      2. <Request A> <Response A>
 
-..........................           ..........................
-..........................           ..........................
+..........................       ..........................
+..........................       ..........................
 
-63. <Request C> <Response C>         63. <Request B> <Response B>
+63. <Request C> <Response C>     63. <Request B> <Response B>
 
-.......................               ..........................
-.......................               ..........................
+.......................          ..........................
+.......................          ..........................
 
-99. <Request Y> <Response Y>         105. <Request Y> <Response Y>
+99. <Request Y> <Response Y>     105. <Request Y> <Response Y>
 
-100. <Request Z> <Response Z>        106. <Request Z> <Response Z>
+100. <Request Z> <Response Z>    106. <Request Z> <Response Z>
 {% endhighlight %}
 
 
