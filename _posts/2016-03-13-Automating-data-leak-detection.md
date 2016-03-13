@@ -11,8 +11,8 @@ Data leak is the most notorious bug a consumer facing software company encounter
 
 Lot of the software companies fail to ensure that these informations are kept securely in their database. Sometimes they just leak database password. On the other times:
 
-Basic authentication or authorisation are often absent in their API calls.
-On top of that they use enumerable user ids, address ids or order ids.
+* Basic authentication or authorisation are often absent in their API calls.
+* On top of that they use enumerable user ids, address ids or order ids.
 
 A typical API will look something like this:
 {% highlight html %}
