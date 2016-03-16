@@ -35,7 +35,7 @@ Only that a human like you and me can easily see that first 6 digits are bogus a
 Anyway, we saw these kinds of bugs too often in various companies, so we decided to try and make the detection of such bugs automated.
 
 ## The idea
-We want to get all the APIs which leak data, so, we will record two different logged-in users activities (all the API calls) done while using the App / website. And then we will use the parameters like <email>, <userid> and <phone number> from user number 2 in the parameters of API calls done for user number 1. If the API call returns a valid response which matches the one for user 2, then it is leaking data, essentially.
+We want to get all the APIs which leak data, so, we will record two different logged-in users activities (all the API calls) done while using the App / website. And then we will use the parameters like `email`, `userid` and `phone number` from user number 2 in the parameters of API calls done for user number 1. If the API call returns a valid response which matches the one for user 2, then it is leaking data, essentially.
 
 For recording the activities one can use a proxy suite like burp or mitmproxy .
 
