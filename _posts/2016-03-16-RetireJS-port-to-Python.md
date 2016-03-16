@@ -6,6 +6,10 @@ published: true
 
 We have open sourced our port of [RetireJS](https://github.com/RetireJS/retire.js) to Python. Feel free to use to test your applications / websites.
 
+### Source
+
+[FallibleInc/retirejslib](https://github.com/FallibleInc/retirejslib)
+
 ### Installation
 
 {% highlight bash %}

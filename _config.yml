@@ -4,10 +4,9 @@ enforce_ssl: fallible.co   # without any protocol
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-
-markdown:    kramdown
-highlighter: pygments
+permalink:    pretty
+markdown:     kramdown
+highlighter:  rouge
 
 # Setup
 title:               Fallible Blog
@@ -15,7 +14,7 @@ tagline:             'Adventures with looking under the hood'
 description:         'We discover bugs, disclose them responsibly, help companies fix them and then write about them here. Companies that have a non-disclosure plan with us are not mentioned here.'
 url:                 http://fallible.co/blog
 baseurl:             '/blog'
-paginate:            1
+paginate:            5
 gems:                [jekyll-paginate]
 
 # About/contact
