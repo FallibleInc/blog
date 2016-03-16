@@ -25,7 +25,7 @@ retirejs.scan_endpoint("http://code.jquery.com/jquery-1.6.min.js")
 
 ### Sample Output:
 
-{% highlight javascript %}
+{% highlight python %}
 [{
 	'detection': 'filecontent',
 	'vulnerabilities': [{
