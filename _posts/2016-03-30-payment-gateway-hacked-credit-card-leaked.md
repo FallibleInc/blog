@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Used your credit card online in India? You are compromised
+title: Used your credit card online in India? It's probably stolen
 published: true
 ---
 
