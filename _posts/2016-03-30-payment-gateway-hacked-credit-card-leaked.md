@@ -7,6 +7,7 @@ published: true
 
 
 
+
 During the recent months we have discovered,
 
 * One of the most popular PCI DSS Level 1 certified payment gateways is leaking complete credit card details. The gateway claims to do more than 15,000,000 transactions on a monthly basis.
@@ -17,7 +18,8 @@ We have already intimated the respective payment gateways and they are working o
 
 ```This is a general notice to the public to ensure that their cards are safe. Hackers generally do not attempt to use all the cards as soon as they get access to, so it is requested that you monitor your charges and statements or better disable current cards if possible. Domestic only debit cards which cannot ever work without CVV/ PIN and OTP can be assumed to be safe.```
 
-Some of the companies who use these vulnerable gateways include BookmyShow, Foodpanda, Freecharge, Mobikwik (not amongst the gateways referred to earlier), Uber, Ola, Snapdeal, Rupay, Makemytrip, Yatra, Swiggy, Redbus, Voonik (Although, These companies are not vulnerable by themselves)
+Companies name retracted due to frequent calls.
+
 
 We will come back with more information regarding these issues once the respective companies have fixed the bugs. We know that no company wants to leak their customer’s payment and personal data and it will be a difficult and time intensive task to fix some of these issues.
 
