@@ -7,7 +7,6 @@ layout: default
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 
-  {% include disqus.html %}
 <!-- Look the author details up from the site config. -->
 {% assign author = site.data.authors[page.author] %}
 
