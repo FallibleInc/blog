@@ -20,11 +20,11 @@ We were inundated by calls from ecommerce companies, payment gateways, PCI-DSS c
 
 There were three set of negative responses.
 
-1. This is a PR stunt - We find issues, inform companies so that they can fix them, inform users so that they can be alert and all you see is PR stunt. Sure.
+1. This is a PR stunt - We find issues, inform companies so that they can fix them, inform users so that they can be alert and all you see is a PR stunt. Sure.
 
 2. Why publish? - People wanted us to not publish anything and nobody will know when two year down the line some random user's card has a false charge. Also, protect the interest of companies who are not even our customers.
 
-3. Why publish now? - We were very vague in details of the bugs and we believe if a bug exposes customer data, then the customer has every right to know about it ASAP. Since we know that none of the previous 15 or so companies that we reported data leaks to did it and this was a severe case involving loss of money, we were compelled to do this ourselves.
+3. Why publish now? - We were very vague in details of the bug and we believe if a bug exposes customer data, then the customer has every right to know about it ASAP. Since we know that none of the previous 15 or so companies that we reported data leaks to did it and this was a severe case involving loss of money, we were compelled to do this ourselves.
 
 
 We [believe that India needs a data breach intimation law like the US](https://www.whitehouse.gov/sites/default/files/omb/legislative/letters/updated-data-breach-notification.pdf) and strict 'enforceable' regulations to protect consumer interest as we move towards all things software. If you believe the same, please contact the relevant authorities in the goverment.
