@@ -8,7 +8,7 @@ published: false
 We [wrote a post](https://fallible.co/blog/2016/03/30/payment-gateway-hacked-credit-card-leaked/) about security issues with some of the payment gateways in India. We wanted to tell more about the bugs at that point of time but we refrained from doing so as the vulnerabilites (the first in the list) were not fixed by the respective companies in their production systems. One of the companies which we reported the bugs to has confirmed the fix and we can do that now.
 
 
-This issue was a complete credit card number leak along with the expiry date. We have blurred some of the digits of the full card (a sample response below). This system is comparatively small and was [used to process around 700,000 transactions per day](http://yourstory.com/2016/02/juspay-funding/), comparetely. This request is supposedly made when coming from different payment gateways.  The id can be enumerated to get card dumps for various users. The card blurred below is not our card and is most probably a debit card.
+This issue was a complete credit card number leak along with the expiry date. We have blurred some of the digits of the full card (a sample response below). This system is comparatively small and was [used to process around 700,000 transactions per day](http://economictimes.indiatimes.com/small-biz/startups/mobile-payments-startup-juspay-gets-rs-40-crore-from-accel-bookmyshow-founders/articleshow/51133079.cms), comparetely. This request is supposedly made when coming from different payment gateways.  The id can be enumerated to get card dumps for various users. The card blurred below is not our card and is most probably a debit card.
 
 ![Juspay1.png]({{site.baseurl}}/_posts/Juspay1.png)
 
