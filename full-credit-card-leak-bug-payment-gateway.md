@@ -4,6 +4,7 @@ published: false
 
 
 
+
 We [wrote a post](https://fallible.co/blog/2016/03/30/payment-gateway-hacked-credit-card-leaked/) about security issues with some of the payment gateways in India. We wanted to tell more about the bugs at that point of time but we refrained from doing so as the vulnerabilites (the first in the list) were not fixed by the respective companies in their production systems. One of the companies which we reported the bugs to has confirmed the fix and we can do that now.
 
 
@@ -27,12 +28,6 @@ There were three set of negative responses.
 3. Why publish now? - We were very vague in details of the bug and we believe if a bug exposes customer data, then the customer has every right to know about it ASAP. Since we know that none of the previous 15 or so companies that we reported data leaks to did it and this was a severe case involving loss of money, we were compelled to do this ourselves.
 
 
-We [believe that India needs a data breach intimation law like the US](https://www.whitehouse.gov/sites/default/files/omb/legislative/letters/updated-data-breach-notification.pdf) and strict 'enforceable' regulations to protect consumer interest as we move towards all things software.
-
-
-
-
-
-
+We [believe that India needs a data breach intimation law like the US](https://www.whitehouse.gov/sites/default/files/omb/legislative/letters/updated-data-breach-notification.pdf) and strict 'enforceable' regulations to protect consumer interest as we move towards all things software. You can help by conveying this to people who make these decisions.
 
 
