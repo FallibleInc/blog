@@ -27,7 +27,7 @@ There were three set of negative responses.
 3. Why publish now? - We were very vague in details of the bug and we believe if a bug exposes customer data, then the customer has every right to know about it ASAP. Since we know that none of the previous 15 or so companies that we reported data leaks to did it and this was a severe case involving loss of money, we were compelled to do this ourselves.
 
 
-We [believe that India needs a data breach intimation law like the US](https://www.whitehouse.gov/sites/default/files/omb/legislative/letters/updated-data-breach-notification.pdf) and strict 'enforceable' regulations to protect consumer interest as we move towards all things software. If you believe the same, please contact the relevant authorities in the goverment.
+We [believe that India needs a data breach intimation law like the US](https://www.whitehouse.gov/sites/default/files/omb/legislative/letters/updated-data-breach-notification.pdf) and strict 'enforceable' regulations to protect consumer interest as we move towards all things software.
 
 
 
