@@ -4,7 +4,7 @@
 Almost every app today uses a 2 factor authentication where the second factor is an `SMS` sent to your mobile phone. This ensures that even if your password is compromised, you will be safe as long as you have your mobile phone with you.
 
 ##### Problem with OTP 
-Problem comes when people use just `SMS` as the only form of authentication. Shortcuts in security are often disastrous. It would still have been okay if they implemented it perfectly. Far from it, OTP based authentication are subject to lot of risks, sometimes:
+Problem comes when people use just `SMS` as the only form of authentication. Shortcuts in security are often disastrous. It would still have been okay if they implemented it perfectly. Far from it, OTP based authentications are subject to a lot of risks, sometimes:
 
 * `send OTP` API sends back `OTP` in the API response (funny but true)
 * They use very small OTP (convenient for users?)
@@ -14,7 +14,7 @@ Problem comes when people use just `SMS` as the only form of authentication. Sho
 * unlimited verification attempts are allowed (brute force)
 * sometimes re-send OTP API sends back the `OTP` in the API response 
 
-This can lead your account to be comprised and hence access all your details which you have save in your account, access wallets in your account, place order on your behalf etc.
+This can lead your account to be comprised and hence access all your details which you have saved in your account, access wallets in your account, place order on your behalf etc.
 
 We have built a tool to capture such badly implemented OTP systems. 
 ![otp_tool.png]({{site.baseurl}}/otp_tool.png)
