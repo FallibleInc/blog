@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OTP based authentication 
+title: Common issues with OTP based authentication 
 published: true
 ---
 
