@@ -1,3 +1,8 @@
+---
+layout: post
+title: OTP based authentication and UrbanClap 
+published: true
+---
 
 *This is being published under responsible disclosure policy*
 
@@ -29,5 +34,7 @@ Timeline:
 * 11/4 - We checked iOS app, it had same issue with `send OTP` instead of `resend OTP`
 * 11/4 - We again told them iOS still has the same issue 
 * 1/5 - Still not fixed, sent a mail to check why aren't they fixing it
+* 10/5 - No reply from them
+* 10/5 -  disclosed publicly
 
 Its also weird to see people use different `APIs` for Android, iOS and web for the exact same purpose of OTP generation!
