@@ -6,12 +6,12 @@ published: true
 
 *This is being published under responsible disclosure policy*
 
-Almost every app today uses a 2 factor authentication where the second factor is an `SMS` sent to your mobile phone. This ensures that even if your password is compromised, you will be safe as long as you have your mobile phone with you.
+Almost every app today uses a [2 factor authentication](https://en.wikipedia.org/wiki/Two-factor_authentication) where the second factor is an `SMS` sent to your mobile phone. This ensures that even if your password is compromised, you will be safe as long as you have your mobile phone with you.
 
-##### Problem with OTP 
+##### Problem with [OTP](https://en.wikipedia.org/wiki/One-time_password) 
 Problem comes when people use just `SMS` as the only form of authentication. Shortcuts in security are often disastrous. It would still have been okay if they implemented it perfectly. Far from it, OTP based authentications are subject to a lot of risks, sometimes:
 
-* `send OTP` API sends back `OTP` in the API response (funny but true)
+* `send OTP` API sends back `OTP` in the [API](https://en.wikipedia.org/wiki/Application_programming_interface) response (funny but true)
 * They use very small OTP (convenient for users?)
 * OTPs don't expire with time (ah, too much work already?)
 * OTPs don't change with new generation request 
