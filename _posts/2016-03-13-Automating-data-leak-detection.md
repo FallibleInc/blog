@@ -7,7 +7,7 @@ published: true
 **Update**: Overseer Demo Video (Mobile API security)
 
 {::nomarkdown}
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/ZStNF4eF2Kk" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/ZStNF4eF2Kk?rel=0" frameborder="0" allowfullscreen></iframe>
 {:/nomarkdown}
 
 We are creating a useful data leak detection tool. This article demonstrates what has been done till now.
