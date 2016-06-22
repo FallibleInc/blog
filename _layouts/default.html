@@ -20,7 +20,7 @@
       </div>
 
       <div class="container content">
-        {{ content }}
+        {{ content | replace: '<li>[ ]', '<li class="checklist"><input type="checkbox">' | replace: '<li>[x]', '<li class = "checklist"><input type="checkbox" checked>'  }}
       </div>
     </div>
 
