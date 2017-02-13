@@ -8,7 +8,7 @@
     </div>
     <nav class="sidebar-nav">
         <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Blog Home</a> {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme for usage. {% endcomment %} {% assign pages_list = site.pages | sort:"url" %}
-        <a class="sidebar-nav-item" href="/blog">Home</a>
+        
         <a class="sidebar-nav-item" href="https://fallible.co/pricing">Fallible Pricing</a>
         <a class="sidebar-nav-item" href="https://fallible.co">Fallible Home</a>
         <a class="sidebar-nav-item" href="https://fallible.co/contactus">Contact Us</a>
